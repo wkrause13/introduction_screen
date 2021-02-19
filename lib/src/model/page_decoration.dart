@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 
 class PageDecoration {
   /// Background page color
-  final Color pageColor;
+  Color pageColor;
 
   /// TextStyle for title
   ///
   /// @Default style `fontSize: 20.0, fontWeight: FontWeight.bold`
-  final TextStyle titleTextStyle;
+  TextStyle titleTextStyle;
 
   /// TextStyle for title
   ///
   /// @Default style `fontSize: 18.0, fontWeight: FontWeight.normal`
-  final TextStyle bodyTextStyle;
+  TextStyle bodyTextStyle;
 
   /// BoxDecoration for page
   final BoxDecoration boxDecoration;
